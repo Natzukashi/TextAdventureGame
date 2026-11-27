@@ -1,0 +1,12 @@
+[package]
+name = "text_adventure_game"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "adventure_game"
+path = "src/bin/adventure_game.rs"
+
+[[bin]]
+name = "text_adventure"
+path = "src/bin/text_adventure.rs"
